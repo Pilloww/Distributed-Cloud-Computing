@@ -141,33 +141,6 @@ def main():
     for t in threads:
         t.join()
 
-#tried to make the threads, start and join in loops above but could not implement successfully -- fixed
-
-#     t1 = Thread(target=Rover, args=('1'))
-#     threads.append(t1)
-#     t2 = Thread(target=Rover, args=('2'))
-#     threads.append(t2)
-#     t3 = Thread(target=Rover, args=('3'))
-#     threads.append(t3)
-#     t4 = Thread(target=Rover, args=('4'))
-#     threads.append(t4)
-#     t5 = Thread(target=Rover, args=('5'))
-#     threads.append(t5)
-#     t6 = Thread(target=Rover, args=('6'))
-#     threads.append(t6)
-#     t7 = Thread(target=Rover, args=('7'))
-#     threads.append(t7)
-#     t8 = Thread(target=Rover, args=('8'))
-#     threads.append(t8)
-#     t9 = Thread(target=Rover, args=('9'))
-#     threads.append(t9)
-#     t10 = Thread(target=Rover, args=('10',))
-#     threads.append(t10)
-#     for i in threads:
-#         i.start()
-#     for i in threads:
-#         i.join()
-
     end = time.time()
     print("The computation time was: ", (end-start), "seconds")
 main()
